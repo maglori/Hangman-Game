@@ -1,0 +1,103 @@
+body {
+	background: #f5e853;
+	opacity:.9;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+p {
+	opacity: 1;
+	font-family: "Monaco", sans-serif;
+	font-weight: 600;
+	font-size: .9em;
+	line-height: 2.5em;
+	width: 200px;
+	margin-left:24px;
+	word-wrap:break-word;
+}
+
+#numOfGuesses, #Wins, #Guesses {
+	color: #FF0000;
+}
+
+#currentWord {
+	color: #285a23;
+	letter-spacing:5px;
+}
+
+#header {
+	opacity: .8;
+	border: 0px;
+	border-radius: 0 9px 0 9px;
+	border-bottom: .14em dotted #FF0000;
+}
+
+h4 {
+	font-family: 'Pacifico', cursive;
+	font-weight: bold;
+	background: dodgerblue;
+	color: #ca6754;
+	text-align: center;
+	padding: 25px;
+	font-size: 2.5em;
+	text-shadow: 2px 2px #FF0000;
+}
+
+h4:hover {
+	background: #e64646;
+	color: #33ff00;
+}
+
+#container {
+	height: 778px;
+	width: 100%;
+	background-image: url("../images/Zeal_final.png");
+	background-repeat: no-repeat;
+	background-size: 960px 778px;
+	background-position: center;
+	opacity: .8;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: baseline;
+}
+
+#theGame {
+	background: tan;
+	background: linear-gradient(to top right, white, #89f5d2);
+	margin: 50px 150px 0px 0px;
+	opacity: .85;
+	width: 500px;
+	height: 620px;
+	border-radius: 8px;
+	display: flex;
+}
+
+#Left {
+	width: 50%;
+	border-right: 3px double #50993e;
+	border-radius: 8px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction:column;
+}
+
+#WHY {
+	font-family: 'Barrio', cursive;
+	font-size: 1.2em;
+}
+
+#Left img {
+	opacity:1;
+	width: 90%;
+	display:block;
+}
+
+#Right {
+	padding-top: 15px;
+	text-align:center;
+	width: 50%;
+	border-left: 3px double #50993e;
+	border-radius: 8px;
+}
